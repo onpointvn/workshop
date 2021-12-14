@@ -5,10 +5,12 @@ defmodule WsUnitTesting.Exercise1Test do
   # Test case name
   test "Should getting the right ws name" do
     # Given
-    expected_result = "Unit Testing workshop"
+    expected_output = "Unit Testing workshop"
+
     # When
-    result = WsUnitTesting.Exercise1.get_workshop_name()
+    output = WsUnitTesting.Exercise1.get_workshop_name()
+
     # Then
-    assert result == expected_result
+    assert output == expected_output
   end
 end
