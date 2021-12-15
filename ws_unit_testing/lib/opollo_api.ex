@@ -1,6 +1,5 @@
 defmodule WsUnitTesting.OpolloAPI do
   use Tesla
-  require Logger
 
   plug(Tesla.Middleware.BaseUrl, "https://dev-landing.onpoint.vn")
   plug(Tesla.Middleware.JSON)
@@ -12,7 +11,6 @@ defmodule WsUnitTesting.OpolloAPI do
         {:ok, body}
 
       {:error, err} ->
-        Logger.error("#{inspect(err)}")
         {:error, err}
     end
   end

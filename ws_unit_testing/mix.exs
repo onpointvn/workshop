@@ -7,7 +7,8 @@ defmodule WsUnitTesting.MixProject do
       version: "0.1.0",
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      test_coverage: [tool: ExCoveralls]
     ]
   end
 
@@ -24,7 +25,8 @@ defmodule WsUnitTesting.MixProject do
       {:tesla, "~> 1.4"},
       {:hackney, "~> 1.17"},
       {:jason, ">= 1.0.0"},
-      {:mock, "~> 0.3.0", only: :test}
+      {:mock, "~> 0.3.0", only: :test},
+      {:excoveralls, "~> 0.10", only: :test}
     ]
   end
 end
