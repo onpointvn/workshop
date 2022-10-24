@@ -1,3 +1,6 @@
+#0.3.0
+- CU-003[on production] Feature 3
+
 #0.2.0
 - CU-004[on production] Feature 4
 
