@@ -1,3 +1,6 @@
+#0.3.1
+- CU-009[on production] Hotfix 9
+
 #0.3.0
 - CU-003[on production] Feature 3
 
