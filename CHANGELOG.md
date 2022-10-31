@@ -1,3 +1,8 @@
+#0.4.0
+- CU-006[on production] Feature 6
+- CU-007[on production] Feature 7
+- CU-008[on production] Hotfix 8
+
 #0.3.1
 - CU-009[on production] Hotfix 9
 
